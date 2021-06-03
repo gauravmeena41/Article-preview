@@ -1,0 +1,115 @@
+html {
+  background: linear-gradient(to top, #75cfb8, transparent);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+#main-div {
+  background: white;
+  width: 750px;
+  height: 340px;
+  font-family: "Manrope", sans-serif;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.11);
+  position: relative;
+  top: 200px;
+  left: 360px;
+}
+#img-div {
+  width: 35%;
+  height: 100%;
+  background: url(./images/Website\ designer.png);
+
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  float: left;
+}
+#content-div {
+  width: 65%;
+  height: 100%;
+  float: right;
+}
+.inner-div {
+  padding: 30px;
+}
+h2 {
+  margin-top: 30px;
+  color: hsl(217, 19%, 35%);
+  font-weight: 700;
+}
+p {
+  color: hsl(214, 17%, 51%);
+  font-weight: 500;
+  margin: 0;
+}
+.profile-div {
+  margin-top: 70px;
+}
+.profile-div img {
+  width: 60px;
+  border-radius: 50%;
+  border: 2px solid rgb(10, 158, 158);
+  display: inline-block;
+}
+.profile-div h4 {
+  display: inline-block;
+  position: absolute;
+
+  margin: 7px 0 0 20px;
+}
+.profile-div p {
+  display: inline;
+  margin-left: 20px;
+  position: relative;
+
+  bottom: 10px;
+}
+.btn {
+  background: url(./images/share-outline.gif);
+
+  background-size: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 60px;
+  height: 60px;
+
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 5px rgba(177, 177, 177, 0.671);
+
+  float: right;
+}
+.btn:hover,
+.btn:active {
+  transform: rotate(20deg);
+}
+.share-div {
+  background: #fff;
+  width: 200px;
+  padding-left: 10px;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 100px;
+  right: -40px;
+  display: none;
+  box-shadow: 0px 0px 10px 5px rgba(177, 177, 177, 0.671);
+}
+.visible {
+  display: inline;
+}
+.share-div h1 {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #20886e;
+  
+}
+.share-div a img {
+  width: 30px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.share-div .facebook-icon {
+  margin-left: 20px;
+}
